@@ -34,21 +34,40 @@ To try Swim, check out one of our step-by-step [tutorials]({% link _tutorials/in
 
 The Swim Java Server is a self-contained, distributed application server for stateful, streaming applications. Swim Server provides applications with persistence without a database, point-to-point messaging without a message broker, and execution scheduling without a job manager. Swim applications communicate using the WARP protocol, a multiplexed streaming upgrade to HTTP.
 
+*Gradle*
+
 ```java
-group: "org.swimos",
-name: "swim-server",
-version: "4.0.1"
+implementation group: 'org.swimos', name: 'swim-server', version: '4.0.1'
 ```
 
+*Maven*
+
+```xml
+<dependency>
+    <groupId>org.swimos</groupId>
+    <artifactId>swim-server</artifactId>
+    <version>4.0.1</version>
+</dependency>
+```
 
 ### Java Client Quick Start
 
 The Swim Java Client is a minimal WARP streaming API client.
 
+*Gradle*
+
 ```java
-group: "org.swimos",
-name: "swim-client",
-version: "4.0.1"
+implementation group: 'org.swimos', name: 'swim-client', version: '4.0.1'
+```
+
+*Maven*
+
+```xml
+<dependency>
+    <groupId>org.swimos</groupId>
+    <artifactId>swim-client</artifactId>
+    <version>4.0.1</version>
+</dependency>
 ```
 
 ### JavaScript Client Quick Start
